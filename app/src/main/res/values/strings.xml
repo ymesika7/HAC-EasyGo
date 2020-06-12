@@ -1,0 +1,96 @@
+<resources>
+    // Setup strings
+    <string name="app_name">HacEasyGo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map_control">Map</string>
+    <string name="setup_number">0000</string>
+
+    // Bundle strings
+    <string name="is_origin">Is Origin?</string>
+    <string name="what_to_do">What To Search?</string>
+    <string name="to_search">To Search?</string>
+    <string name="destination_description">Destination description</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="lat_lng">LatLng</string>
+    <string name="start_nav">Start navigation?</string>
+    <string name="ready_to_nav">Ready to navigation?</string>
+    <string name="focus_on">Focus on</string>
+
+    // Toast strings
+    <string name="toast_choose_origin">אנא בחר נקודת מוצא</string>
+    <string name="toast_choose_destination">אנא בחר יעד</string>
+    <string name="toast_destination_equal_origin">נקודת המוצא זהה ליעד, אנא בחר יעד שונה</string>
+
+    //UI strings
+    <string name="ui_choose_origin">אנא בחר נקודת מוצא</string>
+    <string name="ui_choose_destination">לאן הולכים?</string>
+    <string name="ui_end_navigation_popup">האם אתה בטוח כי ברצונך לסיים את הניווט?</string>
+    <string name="ui_end_navigation_no">לא</string>
+    <string name="ui_end_navigation_yes">כן, ברצוני לסיים את הניווט</string>
+    <string name="ui_back_floor">החזר אותי לקומה\u0020</string>
+    <string name="ui_turn_left">פנה שמאלה</string>
+    <string name="ui_turn_right">פנה ימינה</string>
+    <string name="ui_move_forward">התקדם ישר במשך כ-</string>
+    <string name="ui_metres">\u0020מטר ואז\u0020</string>
+    <string name="ui_down">רד\u0020</string>
+    <string name="ui_up">עלה\u0020</string>
+    <string name="ui_take_me_to_floor">קח אותי לקומה\u0020</string>
+    <string name="ui_to_floor">לקומה\u0020</string>
+    <string name="ui_continue_moving">המשך כ-</string>
+    <string name="ui_metres_and_then">\u0020מטר, ולאחר מכן\u0020</string>
+    <string name="ui_the_destination_is_in">היעד במרחק של כ-</string>
+    <string name="ui_metres_ahead">\u0020מטר לפניך\u0020</string>
+    <string name="ui_hac_name">המכללה האקדמית הדסה</string>
+    <string name="ui_hac_adress">רחוב הנביאים 37, ירושלים</string>
+    <string name="ui_contact_us">צור קשר</string>
+    <string name="ui_call_us">התקשר למכללה</string>
+    <string name="ui_hac_website">אתר המכללה</string>
+    <string name="ui_hac_help_popup_title">HacEasyGo עזרה</string>
+    <string name="ui_hac_help_popup_content">HacEasyGo הינה אפליקציה קלה ונוחה העוזרת לנווט ברחבי המכללה האקדמית הדסה בקלות בפשטות וביעילות</string>
+    <string name="ui_demo_video">סרטון הדרכה</string>
+    <string name="ui_hac_info_popup_title">אז מהי בעצם HacEasyGo?</string>
+    <string name="ui_hac_info_popup_content">HacEasyGo הינה אפליקציה קלה ונוחה העוזרת לנווט ברחבי המכללה האקדמית הדסה בקלות בפשטות וביעילות</string>
+    <string name="ui_contact_developers">צור קשר עם המפתחים</string>
+    <string name="ui_title_info">אודות</string>
+    <string name="ui_title_help">עזרה</string>
+    <string name="ui_title_contact_us">צור קשר</string>
+    <string name="ui_search_local">"חפש בקרבת מקום</string>
+    <string name="ui_printer">מדפסת</string>
+    <string name="ui_computer_lab">מעבדת מחשבים</string>
+    <string name="ui_wc">שירותים</string>
+    <string name="ui_room">חדר</string>
+    <string name="ui_classes">כיתות לימוד</string>
+    <string name="ui_class">אולם</string>
+    <string name="ui_mail2print">מדפסת Mail-To-Print</string>
+    <string name="ui_wc_man">שירותי גברים</string>
+    <string name="ui_wc_woman">שירותי נשים</string>
+
+    // Search groups
+    <string name="type_local">Local</string>
+    <string name="type_class">Class</string>
+    <string name="type_wc">WC</string>
+    <string name="type_computer_lab">ComputerLab</string>
+    <string name="type_printer">Printer</string>
+    <string name="type_building">BUILDING</string>
+    <string name="type_room">Room</string>
+    <string name="type_wc_man">WCm</string>
+    <string name="type_wc_women">WCw</string>
+
+    // Wi-Fi server url
+    <string name="wifi_server_url">https://nl.hac.ac.il/ap/dy.htm</string>
+
+    // Popup strings
+    <string name="developers_email">ymesika7@gmail.com</string>
+    <string name="web_site_url">https://www.hac.ac.il/</string>
+    <string name="youtube_app_demo">https://www.youtube.com/channel/UC7Klrzdnf8jSY-JADiUPlGw</string>
+
+    //  Database Strings
+    <string name="database_name">Proj_DB2.db</string>
+    <string name="db_table_name">sites</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/NavScreenMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/white">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <ImageButton
+            android:id="@+id/button_exit"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:tint="@color/black"
+            app:srcCompat="@drawable/ic_arrow_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/colorAccent"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:id="@+id/directions_background"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="80dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/moveFloor"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginRight="-80dp"
+            android:layout_marginBottom="30dp"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/directions_background"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/ic_arrow_down" />
+
+        <ImageButton
+            android:id="@+id/reachDest"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginRight="-80dp"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/directions_background"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/ic_reach_destination" />
+
+        <TextView
+            android:id="@+id/moveFloorText"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="315dp"
+            android:layout_marginTop="45dp"
+            android:layoutDirection="rtl"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:layout_toLeftOf="@+id/button_prev"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            android:contentDescription="btnnext"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/ic_arrow_next" />
+
+        <ImageButton
+            android:id="@+id/button_prev"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            android:contentDescription="btnprev"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/ic_arrow_prev" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

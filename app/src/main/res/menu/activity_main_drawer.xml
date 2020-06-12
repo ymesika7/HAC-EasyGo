@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info"
+            android:icon="@mipmap/ic_info"
+            android:title="@string/ui_title_info" />
+        <item
+            android:id="@+id/help"
+            android:icon="@mipmap/ic_question_mark"
+            android:title="@string/ui_title_help" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@mipmap/ic_call"
+            android:title="@string/ui_title_contact_us" />
+    </group>
+
+</menu>

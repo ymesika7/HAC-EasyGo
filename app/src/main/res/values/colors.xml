@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#005f83</color>
+    <color name="colorPrimary">#007297</color>
+    <color name="colorAccent">#0285AF</color>
+
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+
+    <!-- Material design dark, primary text -->
+    <color name="textPrimary">#DE000000</color>
+    <!-- Material design dark, secondary text -->
+    <color name="textSecondary">#89000000</color>
+
+    // Direction arrow colors
+    <color name="arrow_color">#005f83</color>
+    <color name="line_color">#0285AF</color>
+
+</resources>
