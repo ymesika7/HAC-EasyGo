@@ -1,7 +1,7 @@
 # HAC_EasyGo
 ### (Indoor Navigation App For Android)
 
-HAC_EasyGo application is an efficient, high-resolution innovative indoor navigation application written in Java using Android Studio.
+HACEasyGo application is an efficient, high-resolution innovative indoor navigation application written in Java using Android Studio.
 The application is user-friendly, based on the Google Maps platform in tandem with an advanced Graphical User Interface. 
 The navigation is calculated using unique methodology, combining data of pre-defined coordinates of the building (underlined data-mining and database designing using SQLite) with real-time signals from wireless access points. 
 
