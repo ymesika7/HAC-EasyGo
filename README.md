@@ -1,5 +1,5 @@
 # HAC_EasyGo
-### (Indoor Navigation App For Android)
+### Indoor Navigation App For Android
 
 HACEasyGo application is an efficient, high-resolution innovative indoor navigation application written in Java using Android Studio.
 The application is user-friendly, based on the Google Maps platform in tandem with an advanced Graphical User Interface. 
