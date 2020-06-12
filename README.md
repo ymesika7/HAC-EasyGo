@@ -15,8 +15,6 @@ First, you need to generate a google maps key for android (follow the instructio
 
 ## Author
 
-* Yonatan Mesika
+* Yonatan Mesika, ymesika7@gmail.com
 
-## License
 
-HAC-EasyGO is released under [The MIT LICENSE](LICENSE).
