@@ -5,6 +5,8 @@ HAC EasyGo application is an efficient, high-resolution innovative indoor naviga
 The application is user-friendly, based on the Google Maps platform in tandem with an advanced Graphical User Interface. 
 The navigation is calculated using unique methodology, combining data of pre-defined coordinates of the building (underlined data-mining and database designing using SQLite) with real-time signals from wireless access points. 
 
+Demo : https://youtu.be/1xydmRl61ho
+
 ## Usage
 
 Clone the project and open it in Android Studio.
